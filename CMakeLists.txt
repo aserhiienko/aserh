@@ -59,8 +59,10 @@ add_library(
     ProjectsLibrary
     STATIC
     ${CMAKE_SOURCE_DIR}/src/main.cpp
+    ${CMAKE_SOURCE_DIR}/src/markov.h
+    ${CMAKE_SOURCE_DIR}/src/markov.cpp
     )
-    target_include_directories(
+target_include_directories(
     ProjectsLibrary
     PUBLIC
     ${CMAKE_SOURCE_DIR}/src
@@ -68,6 +70,7 @@ add_library(
 add_executable(
     ProjectsTests
     ${CMAKE_SOURCE_DIR}/tests/main.cpp
+    ${CMAKE_SOURCE_DIR}/tests/test_markov.cpp
     )
 
     target_include_directories(
