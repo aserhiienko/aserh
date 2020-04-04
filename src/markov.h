@@ -1,13 +1,11 @@
-#include<string>
-#include<vector>
-namespace projects{
-struct MarkovRule{
-std::string pattern= "";
-std::string replacement= "";
-
+#include <string>
+#include <vector>
+namespace projects {
+struct MarkovRule {
+    std::string pattern = "";
+    std::string replacement = "";
 };
-struct Markov{
-std:: string run (std::string text, std::vector<MarkovRule> rules);
-
+struct Markov {
+    std::string run(std::string text, std::vector<MarkovRule> rules);
 };
-}
+} // namespace projects

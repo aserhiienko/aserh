@@ -3,8 +3,5 @@
 extern int TestReturnOne();
 
 namespace {
-TEST(TestReturnOneFunction, TestReturnOneReturnsOne) {
-    EXPECT_EQ(TestReturnOne(), 1);
-
-}
-}
+TEST(TestReturnOneFunction, TestReturnOneReturnsOne) { EXPECT_EQ(TestReturnOne(), 1); }
+} // namespace

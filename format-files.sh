@@ -1,0 +1,5 @@
+clang-format --style=file -i "src/main.cpp"
+clang-format --style=file -i "src/markov.h"
+clang-format --style=file -i "src/markov.cpp"
+clang-format --style=file -i "tests/main.cpp"
+clang-format --style=file -i "tests/test_markov.cpp"

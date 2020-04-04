@@ -1,9 +1,3 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int TestReturnOne(){
-
-
-
-
-    return 1;
-}
+int TestReturnOne() { return 1; }
