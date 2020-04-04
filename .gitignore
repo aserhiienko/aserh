@@ -1,0 +1,5 @@
+.DS_Store
+build_macos
+build_windows
+dependencies
+bin
